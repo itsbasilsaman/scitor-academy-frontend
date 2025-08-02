@@ -11,7 +11,7 @@ const navigationItems = [
   { name: "HOME", href: "/" },
   { name: "ABOUT", href: "/about-us" },
   { name: "COURSES", href: "/courses" },
-  { name: "DEMOS", href: "/demos" },
+  { name: "WHY CHOOSE US", href: "/why-choose-us" },
   { name: "PRICING", href: "/pricing" },
   { name: "TESTIMONIALS", href: "/testimonials" },
 ]
