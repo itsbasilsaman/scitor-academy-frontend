@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { FaBullseye } from "react-icons/fa" // Importing FaBullseye from react-icons/fa
 
 export default function OurVision() {
   return (

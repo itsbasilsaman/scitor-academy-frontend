@@ -11,19 +11,7 @@ interface ButtonProps {
   className?: string
   variant?: "default" | "ghost"
   size?: "default" | "icon"
-  [key: string]: any
-}
-
-interface CardProps {
-  children: React.ReactNode
-  className?: string
-  [key: string]: any
-}
-
-interface CardContentProps {
-  children: React.ReactNode
-  className?: string
-  [key: string]: any
+  [key: string]: unknown
 }
 
 interface Course {
@@ -61,22 +49,7 @@ const Button = ({ children, onClick, className = "", variant = "default", size =
   )
 }
 
-// Manual Card Components
-const Card = ({ children, className = "", ...props }: CardProps) => {
-  return (
-    <div className={`rounded-lg border bg-card text-card-foreground shadow-sm ${className}`} {...props}>
-      {children}
-    </div>
-  )
-}
-
-const CardContent = ({ children, className = "", ...props }: CardContentProps) => {
-  return (
-    <div className={`p-6 pt-0 ${className}`} {...props}>
-      {children}
-    </div>
-  )
-}
+// Manual Button Component
 
 export default function OurCourses() {
   const [currentSlide, setCurrentSlide] = useState(1)

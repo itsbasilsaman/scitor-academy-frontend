@@ -6,9 +6,9 @@ export default function HeroSection() {
       <div
         className="overflow-hidden relative  p-8 rounded-3xl md:p-12 lg:p-16 xl:p-20"
         style={{
-          backgroundImage: 'linear-gradient(to right, rgba(172, 142, 222, 0), rgba(172, 142, 222, 1)), url(/hero-bg.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundImage: "linear-gradient(to right, rgba(172, 142, 222, 0), rgba(172, 142, 222, 1)), url(/hero-bg.png)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         {/* Content */}
@@ -17,10 +17,10 @@ export default function HeroSection() {
             Ready to Speak Fluently or Build Your Career?
           </h1>
 
-          <p className="mb-8 max-w-6xl text-lg text-white text-regular md:text-xl">
-            Join hundreds of learners transforming their communication skills and careers through{" "}
-            <span className="font-semibold">Scitor Academy</span>. We're here to guide you every step of the way.
-          </p>
+                      <p className="mb-8 max-w-6xl text-lg text-white text-regular md:text-xl">
+              Join hundreds of learners transforming their communication skills and careers through{" "}
+              <span className="font-semibold">Scitor Academy</span>. We&apos;re here to guide you every step of the way.
+            </p>
 
           <button
             type="button"

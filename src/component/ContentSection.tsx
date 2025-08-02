@@ -1,15 +1,17 @@
  
 import { GoArrowUpRight } from "react-icons/go";
-
+import Image from "next/image";
 export default function ContentSection() {
   return (
     <section className="relative lg:h-screen h-auto overflow-hidden">
       {/* Background logo image - responsive positioning */}
       <div className="absolute left-4 sm:left-8 md:left-12 top-1/2 -translate-y-1/2 -translate-x-1/4 sm:-translate-x-1/6 md:-translate-x-1/8 lg:-translate-x-1/10">
         <div className="relative">
-          <img 
+          <Image 
             src="/scitor-bg-logo.png" 
             alt="Scitor Academy Background Logo" 
+            width={480}
+            height={480}
             className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[30rem] xl:h-[30rem] object-contain opacity-60"
           />
         </div>

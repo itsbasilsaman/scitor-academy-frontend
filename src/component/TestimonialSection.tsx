@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaQuoteLeft } from "react-icons/fa"
+import { FaGraduationCap } from "react-icons/fa"
 import Image from "next/image"
 
 export default function TestimonialSection() {
@@ -57,7 +57,7 @@ export default function TestimonialSection() {
                   Scitor Academy completely transformed my confidence in speaking English. The demo classes were
                   engaging and gave me a real taste of the learning experience. What I loved most was how practical and
                   career-focused the lessons were. The instructors are incredibly supportive and always ready to guide
-                  you. I've already seen an improvement in my communication skills at work. I highly recommend Scitor to
+                  you. I&apos;ve already seen an improvement in my communication skills at work. I highly recommend Scitor to
                   anyone looking to grow professionally.
                 </p>
               </div>

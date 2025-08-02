@@ -3,7 +3,6 @@
 import type React from "react"
 
 import Image from "next/image"
-import {   IoTimeOutline, IoBookOutline, IoPlaySharp } from "react-icons/io5"
 import { GoArrowUpRight } from "react-icons/go";
  
 

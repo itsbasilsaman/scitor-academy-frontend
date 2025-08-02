@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { BiGridAlt, BiMenu } from "react-icons/bi";
 import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { CiGlobe } from "react-icons/ci";
 import Image from "next/image";
